@@ -1,0 +1,19 @@
+reset
+
+set xlabel 'Time (s)' font ',20'
+set ylabel '{/Symbol p} Voltage (V)' font ',20'
+
+set xrange [0:10]
+set yrange [-1.5:1.5]
+
+set samples 1000
+set title 'Wasabi ' font ',20'
+
+#set arrow 1 from 2,-1 to 1.5,1
+#set label ' PEAK' at 2,-1
+
+#plot sin(x) w p ps 10
+
+plot sin(x) w l lw 2.5 t 'AC' 
+
+
